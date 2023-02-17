@@ -1,7 +1,8 @@
 <template>
   <h3>Hey!</h3>
-  <greeting></greeting>
+  <greeting :age="age"></greeting>
   <user :age="age"></user>
+  <button type="button" @click="age++">Update The Age</button>
 </template>
 
 <script>
