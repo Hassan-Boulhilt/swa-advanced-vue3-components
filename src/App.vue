@@ -1,4 +1,5 @@
 <template>
+  <p>Red</p>
   <Greeting></Greeting>
 </template>
 
